@@ -17,6 +17,6 @@ RUN lore install
 
 EXPOSE 5000
 
-CMD [ "lore", "server &" ]
+# CMD [ "lore", "server &" ]
 
 # ENTRYPOINT [ "curl", "http://localhost:5000/product_popularity.Keras/predict.json?product_name=Banana&department=produce" ] 
